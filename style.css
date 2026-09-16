@@ -83,7 +83,9 @@
 }
 
 /* --- Base & Reset --- */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -226,10 +228,14 @@ img {
   justify-content: center;
   width: 36px;
   height: 36px;
-  border-radius: 10px;
-  background: var(--accent-gradient);
-  color: #ffffff;
-  box-shadow: 0 2px 10px var(--accent-glow);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.logo-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .logo-text {
@@ -313,7 +319,8 @@ img {
   transform: translateY(-1px);
 }
 
-.icon-sun, .icon-moon {
+.icon-sun,
+.icon-moon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -499,9 +506,11 @@ img {
   0% {
     box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
   }
+
   70% {
     box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
   }
+
   100% {
     box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
   }
@@ -561,7 +570,8 @@ img {
   align-items: baseline;
 }
 
-.metric-number .plus, .metric-number .percent {
+.metric-number .plus,
+.metric-number .percent {
   color: var(--accent-primary);
   font-size: 1.3rem;
   margin-left: 1px;
@@ -620,13 +630,23 @@ img {
 }
 
 @keyframes rotateClockwise {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes rotateCounter {
-  from { transform: rotate(360deg); }
-  to { transform: rotate(0deg); }
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
 }
 
 /* Modern Circular Profile Card with Soft Drop-Shadow & Adaptive Accent Ring Glow */
@@ -686,8 +706,13 @@ img {
 }
 
 @keyframes floatTitle {
-  0% { transform: translateX(-50%) translateY(0); }
-  100% { transform: translateX(-50%) translateY(-5px); }
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(-5px);
+  }
 }
 
 .badge-sparkle {
@@ -741,8 +766,15 @@ img {
 }
 
 @keyframes bobbing {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-8px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
 }
 
 /* ==========================================================================
@@ -1328,12 +1360,29 @@ img {
   overflow: hidden;
 }
 
-.banner-gradient-1 { background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%); }
-.banner-gradient-2 { background: linear-gradient(135deg, #064e3b 0%, #065f46 100%); }
-.banner-gradient-3 { background: linear-gradient(135deg, #4c1d95 0%, #581c87 100%); }
-.banner-gradient-4 { background: linear-gradient(135deg, #1f2937 0%, #374151 100%); }
-.banner-gradient-5 { background: linear-gradient(135deg, #701a75 0%, #86198f 100%); }
-.banner-gradient-6 { background: linear-gradient(135deg, #1e3a8a 0%, #172554 100%); }
+.banner-gradient-1 {
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+}
+
+.banner-gradient-2 {
+  background: linear-gradient(135deg, #064e3b 0%, #065f46 100%);
+}
+
+.banner-gradient-3 {
+  background: linear-gradient(135deg, #4c1d95 0%, #581c87 100%);
+}
+
+.banner-gradient-4 {
+  background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+}
+
+.banner-gradient-5 {
+  background: linear-gradient(135deg, #701a75 0%, #86198f 100%);
+}
+
+.banner-gradient-6 {
+  background: linear-gradient(135deg, #1e3a8a 0%, #172554 100%);
+}
 
 .project-metric-pill {
   position: absolute;
@@ -1659,7 +1708,8 @@ img {
   color: #ef4444;
 }
 
-.form-input, .form-textarea {
+.form-input,
+.form-textarea {
   width: 100%;
   padding: 0.85rem 1.1rem;
   background-color: var(--bg-input);
@@ -1671,7 +1721,8 @@ img {
   transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
 }
 
-.form-input:focus, .form-textarea:focus {
+.form-input:focus,
+.form-textarea:focus {
   outline: none;
   border-color: var(--accent-primary);
   box-shadow: 0 0 0 3px var(--accent-glow);
@@ -1688,7 +1739,8 @@ img {
   min-height: 1rem;
 }
 
-.form-input.error, .form-textarea.error {
+.form-input.error,
+.form-textarea.error {
   border-color: #ef4444;
 }
 
@@ -1709,7 +1761,9 @@ img {
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .btn-submit.loading .btn-text {
@@ -1861,8 +1915,15 @@ img {
 }
 
 @keyframes modalScale {
-  from { transform: scale(0.92); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
+  from {
+    transform: scale(0.92);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .modal-header {
@@ -1967,7 +2028,8 @@ img {
     justify-content: center;
   }
 
-  .about-grid, .contact-grid {
+  .about-grid,
+  .contact-grid {
     grid-template-columns: 1fr;
   }
 }
