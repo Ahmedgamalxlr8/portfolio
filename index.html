@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Ahmed Gamal El Horigy - Machine Learning Engineer & Data Scientist specializing in Deep Learning, Computer Vision, and Production GenAI (RAG).">
+  <meta name="keywords" content="Ahmed Gamal El Horigy, Machine Learning Engineer, Data Scientist, Generative AI, RAG, Computer Vision, YOLOv8, PyTorch, Azure ML, FastAPI">
+  <title>Ahmed Gamal El Horigy | Machine Learning Engineer &amp; Data Scientist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Fixed Top Navigation Header -->
+  <header class="header" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="brand-logo" aria-label="Ahmed Gamal Portfolio Home">
+        <span class="logo-icon">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+            <line x1="14" y1="4" x2="10" y2="20"></line>
+          </svg>
+        </span>
+        <span class="logo-text">Ahmed<span class="accent-dot">.</span>AI</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Header Actions (Theme Toggle & Mobile Menu) -->
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle dark/light theme" title="Toggle theme">
+          <span class="icon-sun">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+          <span class="icon-moon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <button class="mobile-toggle-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- SECTION 1: HOME (HERO) -->
+    <section class="hero-section" id="home">
+      <div class="hero-background-glow"></div>
+      <div class="container hero-container">
+        <!-- Left Column -->
+        <div class="hero-content">
+          <!-- Badge Headline -->
+          <div class="status-badge" role="status">
+            <span class="pulse-dot"></span>
+            <span class="status-text">Open to Full-Time &amp; Freelance Opportunities</span>
+          </div>
+
+          <!-- Main Headline -->
+          <h1 class="hero-headline">
+            Engineering Intelligent Systems, <span class="gradient-text">Deep Learning &amp; Production GenAI</span>
+          </h1>
+
+          <!-- Short Bio Tagline -->
+          <p class="hero-tagline">
+            Machine Learning Engineer with practical experience designing end-to-end predictive pipelines, deep learning vision models, and production GenAI (RAG) systems.
+          </p>
+
+          <!-- 3 Primary CTA Action Buttons -->
+          <div class="hero-actions">
+            <a href="https://drive.google.com/file/d/1XW4Ch27_IBrfKb7YSozJML9A6NPD5pQh/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="viewCvBtn">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+              <span>View CV</span>
+            </a>
+            <a href="#contact" class="btn btn-primary">
+              <span>Contact Me</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#projects" class="btn btn-secondary">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+              <span>View Projects</span>
+            </a>
+          </div>
+
+          <!-- Key Metric Counter Banner -->
+          <div class="hero-metrics-banner">
+            <div class="metric-card">
+              <div class="metric-number"><span class="counter" data-target="3.32">0.00</span><span class="plus">/4.0</span></div>
+              <div class="metric-label">3.32 GPA (Very Good)</div>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-card">
+              <div class="metric-number"><span class="counter" data-target="4">0</span><span class="plus"> Core</span></div>
+              <div class="metric-label">Production Modules</div>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-card">
+              <div class="metric-number"><span class="plus">&gt;</span><span class="counter" data-target="90">0</span><span class="percent">%</span></div>
+              <div class="metric-label">NASA Yield Precision</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Featured Circular Profile Card -->
+        <div class="hero-visual">
+          <div class="profile-card-wrapper">
+            <div class="halo-ring halo-ring-1"></div>
+            <div class="halo-ring halo-ring-2"></div>
+            
+            <div class="circular-profile-card">
+              <img src="images/profile.jpg" alt="Ahmed Gamal El Horigy - Machine Learning Engineer &amp; Data Scientist" class="profile-photo" loading="eager">
+              <div class="profile-mesh-overlay"></div>
+            </div>
+
+            <!-- Glowing Badge Overlay for Target Title -->
+            <div class="glowing-badge-overlay">
+              <div class="badge-sparkle">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                  <path d="M12 0l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 0z"/>
+                </svg>
+              </div>
+              <span class="badge-title-text">Machine Learning Engineer &amp; Data Scientist</span>
+            </div>
+
+            <!-- Floating Tech Indicator Chips -->
+            <div class="floating-chip chip-top-left">
+              <span class="chip-icon">⚡</span>
+              <span>PyTorch &amp; YOLOv8</span>
+            </div>
+            <div class="floating-chip chip-bottom-right">
+              <span class="chip-icon">🚀</span>
+              <span>Production GenAI &amp; RAG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">01. Overview</div>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Who Am I? Bridging algorithmic precision with production-grade intelligent systems.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative">
+            <h3 class="narrative-heading">Engineering Scalable AI from Theory to Production</h3>
+            <p>
+              I am a Machine Learning Engineer and Senior AI Student at Damietta University (IS Dept.) with a strong background in designing end-to-end predictive pipelines, deep learning vision models, and production Retrieval-Augmented Generation (RAG) systems.
+            </p>
+            <p>
+              My expertise spans machine learning algorithms (XGBoost, LightGBM, Random Forest, Scikit-learn) and deep learning models (YOLOv8, Transformers, PyTorch, TensorFlow) integrated with vector embeddings, LangChain, and modern databases like SQL Server, MongoDB, and Neo4j.
+            </p>
+            <p>
+              With hands-on experience deploying scalable REST APIs using FastAPI, containerizing inference services with Docker, and automating cloud workflows on Microsoft Azure AI / Azure ML, I turn complex data into robust, high-impact intelligent applications.
+            </p>
+
+            <div class="about-key-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <strong>Production GenAI &amp; RAG Pipelines</strong>
+                  <p>Context-aware systems built with LangChain, DistilBERT embeddings, Qdrant vector databases, and Groq LLMs.</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <strong>Cloud MLOps &amp; Microservices</strong>
+                  <p>Containerized computer vision endpoints with YOLOv8, FastAPI, Docker, and Microsoft Azure ML automation.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-meta-row">
+              <div class="meta-item"><span class="meta-label">Location:</span> New Damietta, Egypt (Open to Remote)</div>
+              <div class="meta-item"><span class="meta-label">University:</span> Damietta University (Faculty of Computers &amp; AI - IS Dept.)</div>
+              <div class="meta-item"><span class="meta-label">Status:</span> Open to Opportunities | Senior Student</div>
+            </div>
+          </div>
+
+          <div class="about-cards-column">
+            <div class="feature-card">
+              <div class="feature-card-icon">🤖</div>
+              <h4>Production GenAI &amp; RAG</h4>
+              <p>Designing domain-specific context retrieval systems with vector embeddings, hybrid semantic routing, and ultra-fast inference.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-card-icon">👁️</div>
+              <h4>Deep Learning &amp; Vision</h4>
+              <p>Training real-time object detection models with YOLOv8, Transformers, and PyTorch for high-precision inference.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-card-icon">☁️</div>
+              <h4>Cloud MLOps &amp; REST APIs</h4>
+              <p>Containerizing microservices via Docker and FastAPI, deploying predictive models to Microsoft Azure AI and Azure ML.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: EDUCATION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">02. Academic Background</div>
+          <h2 class="section-title">Education &amp; Credentials</h2>
+          <p class="section-subtitle">Academic foundations in computers, artificial intelligence, and specialized industry fellowships.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1: University -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="degree-title">Bachelor's Degree in Computers and Artificial Intelligence</h3>
+                  <h4 class="institution-name">Damietta University (Faculty of Computers and Artificial Intelligence - IS Dept.)</h4>
+                </div>
+                <span class="timeline-date">Sept 2023 — Present | Egypt</span>
+              </div>
+              <p class="timeline-description">
+                Comprehensive study in computer science, software engineering, and intelligent systems. Maintaining high academic standing with rigorous coursework across theoretical algorithms and applied data science.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">GPA: 3.32 / 4.00 (Very Good)</span>
+                <span class="tag">Machine Learning &amp; Deep Learning</span>
+                <span class="tag">Data Structures &amp; Algorithms</span>
+                <span class="tag">Relational Databases (SQL Server)</span>
+                <span class="tag">NoSQL (MongoDB, Neo4j)</span>
+                <span class="tag">Software Engineering &amp; System Architecture</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: DEPI -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="degree-title">Microsoft Machine Learning Engineer Fellow</h3>
+                  <h4 class="institution-name">Digital Egypt Pioneers Initiative (DEPI)</h4>
+                </div>
+                <span class="timeline-date">Jul 2026 — Present</span>
+              </div>
+              <p class="timeline-description">
+                Specialized enterprise program focusing on developing scalable predictive models, cloud automation pipelines, hyperparameter tuning, and containerized serving utilizing Microsoft Azure ML cloud architecture.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">DEPI Fellow</span>
+                <span class="tag">Microsoft Azure ML</span>
+                <span class="tag">Enterprise MLOps</span>
+                <span class="tag">Model Benchmarking</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: ITI -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="degree-title">Applied AI Development Trainee (AI Level 2)</h3>
+                  <h4 class="institution-name">Information Technology Institute (ITI)</h4>
+                </div>
+                <span class="timeline-date">Aug 2026 — Present</span>
+              </div>
+              <p class="timeline-description">
+                Intensive industry training covering advanced Computer Vision backbones, transformer-based NLP, generative AI workflows, and cross-validated ML pipelines with rigorous diagnostic evaluation.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">ITI AI Level 2 Certification</span>
+                <span class="tag">Computer Vision</span>
+                <span class="tag">Transformer NLP</span>
+                <span class="tag">Diagnostic Evaluation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">03. Capabilities</div>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">A balanced tech stack spanning machine learning, deep learning, production GenAI, cloud MLOps, and software engineering.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1 -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">💻</div>
+              <h3 class="category-name">Programming &amp; Query Languages</h3>
+            </div>
+            <div class="skill-badges-container">
+              <span class="skill-badge">Python</span>
+              <span class="skill-badge">SQL (T-SQL)</span>
+              <span class="skill-badge">JavaScript</span>
+              <span class="skill-badge">Cypher (Neo4j)</span>
+            </div>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">🧬</div>
+              <h3 class="category-name">Machine Learning &amp; Deep Learning</h3>
+            </div>
+            <div class="skill-badges-container">
+              <span class="skill-badge">Scikit-learn</span>
+              <span class="skill-badge">PyTorch</span>
+              <span class="skill-badge">TensorFlow</span>
+              <span class="skill-badge">YOLOv8 Computer Vision</span>
+              <span class="skill-badge">Transformers &amp; Hugging Face</span>
+              <span class="skill-badge">Feature Engineering</span>
+              <span class="skill-badge">Model Benchmarking</span>
+              <span class="skill-badge">Hyperparameter Tuning</span>
+            </div>
+          </div>
+
+          <!-- Category 3 -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">🤖</div>
+              <h3 class="category-name">Generative AI &amp; NLP</h3>
+            </div>
+            <div class="skill-badges-container">
+              <span class="skill-badge">LLMs &amp; RAG Pipelines</span>
+              <span class="skill-badge">Vector Embeddings</span>
+              <span class="skill-badge">LangChain</span>
+              <span class="skill-badge">Prompt Engineering</span>
+              <span class="skill-badge">DistilBERT</span>
+              <span class="skill-badge">SpaCy &amp; NLTK</span>
+              <span class="skill-badge">Text Processing</span>
+              <span class="skill-badge">Qdrant Vector DB</span>
+            </div>
+          </div>
+
+          <!-- Category 4 -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">📊</div>
+              <h3 class="category-name">Data Engineering &amp; Databases</h3>
+            </div>
+            <div class="skill-badges-container">
+              <span class="skill-badge">Pandas</span>
+              <span class="skill-badge">NumPy</span>
+              <span class="skill-badge">SQL Server</span>
+              <span class="skill-badge">MongoDB</span>
+              <span class="skill-badge">Neo4j</span>
+              <span class="skill-badge">Data Preprocessing</span>
+              <span class="skill-badge">Automated ETL Pipelines</span>
+            </div>
+          </div>
+
+          <!-- Category 5 -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">⚙️</div>
+              <h3 class="category-name">Deployment, Cloud &amp; Tools</h3>
+            </div>
+            <div class="skill-badges-container">
+              <span class="skill-badge">FastAPI</span>
+              <span class="skill-badge">Docker</span>
+              <span class="skill-badge">Microsoft Azure AI</span>
+              <span class="skill-badge">Microsoft Azure ML</span>
+              <span class="skill-badge">Git &amp; GitHub</span>
+              <span class="skill-badge">Jira</span>
+              <span class="skill-badge">REST Endpoints</span>
+            </div>
+          </div>
+
+          <!-- Category 6 -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">🌐</div>
+              <h3 class="category-name">Languages &amp; Core Architecture</h3>
+            </div>
+            <div class="skill-badges-container">
+              <span class="skill-badge">Arabic (Native)</span>
+              <span class="skill-badge">English (Professional)</span>
+              <span class="skill-badge">Agile Workflows</span>
+              <span class="skill-badge">System Architecture</span>
+              <span class="skill-badge">System Design (MVC, UML)</span>
+              <span class="skill-badge">Role-Based Access Control</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: EXPERIENCE -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">04. Career Milestones</div>
+          <h2 class="section-title">Work Experience &amp; Fellowships</h2>
+          <p class="section-subtitle">Practical engineering experience building production GenAI, computer vision APIs, and cloud ML systems.</p>
+        </div>
+
+        <div class="experience-list">
+          <!-- Experience 1 -->
+          <div class="exp-card">
+            <div class="exp-card-header">
+              <div class="exp-company-group">
+                <span class="exp-badge">Current Role</span>
+                <h3 class="exp-role">Freelance Machine Learning &amp; AI Engineer</h3>
+                <h4 class="exp-company">Remote</h4>
+              </div>
+              <span class="exp-duration">Jul 2026 — Present</span>
+            </div>
+            <ul class="exp-points">
+              <li>Architected and deployed custom Retrieval-Augmented Generation (RAG) pipelines integrating LangChain and vector databases to enable context-aware domain search for client applications.</li>
+              <li>Containerized real-time computer vision inference services using YOLOv8, FastAPI, and Docker into low-latency REST endpoints.</li>
+              <li>Built automated data preprocessing and feature extraction pipelines in Python/Scikit-Learn to train validated predictive models.</li>
+            </ul>
+            <div class="exp-tech-stack">
+              <span>LangChain</span>
+              <span>YOLOv8</span>
+              <span>FastAPI</span>
+              <span>Docker</span>
+              <span>Python</span>
+              <span>Scikit-Learn</span>
+              <span>Vector DBs</span>
+            </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="exp-card">
+            <div class="exp-card-header">
+              <div class="exp-company-group">
+                <h3 class="exp-role">Microsoft Machine Learning Engineer Fellow</h3>
+                <h4 class="exp-company">Digital Egypt Pioneers Initiative (DEPI)</h4>
+              </div>
+              <span class="exp-duration">Jul 2026 — Present</span>
+            </div>
+            <ul class="exp-points">
+              <li>Trained enterprise-grade models and built automated ML pipelines utilizing Microsoft Azure ML cloud infrastructure.</li>
+              <li>Conducted model benchmarking, hyperparameter optimization, and cloud-based API serving for predictive endpoints.</li>
+              <li>Collaborated on cross-functional AI initiatives applying enterprise governance, model registry, and testing pipelines.</li>
+            </ul>
+            <div class="exp-tech-stack">
+              <span>Microsoft Azure ML</span>
+              <span>Azure AI</span>
+              <span>Python</span>
+              <span>Hyperparameter Tuning</span>
+              <span>Cloud APIs</span>
+            </div>
+          </div>
+
+          <!-- Experience 3 -->
+          <div class="exp-card">
+            <div class="exp-card-header">
+              <div class="exp-company-group">
+                <h3 class="exp-role">Applied AI Development Trainee (AI Level 2)</h3>
+                <h4 class="exp-company">Information Technology Institute (ITI)</h4>
+              </div>
+              <span class="exp-duration">Aug 2026 — Present</span>
+            </div>
+            <ul class="exp-points">
+              <li>Completed intensive AI tracks covering advanced Computer Vision backbones, transformer-based NLP, and generative AI workflows.</li>
+              <li>Built cross-validated ML pipelines with diagnostic evaluation to maximize predictive accuracy.</li>
+              <li>Implemented end-to-end model benchmarking across tabular, visual, and sequential dataset modalities.</li>
+            </ul>
+            <div class="exp-tech-stack">
+              <span>Computer Vision</span>
+              <span>Transformers</span>
+              <span>PyTorch</span>
+              <span>Deep Learning</span>
+              <span>Diagnostic Evaluation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: SERVICES -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">05. Offerings</div>
+          <h2 class="section-title">What I Provide</h2>
+          <p class="section-subtitle">Tailored data science, custom machine learning development, and scalable cloud deployments.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">01. GenAI &amp; Production RAG Systems</h3>
+            <p class="service-desc">Custom RAG pipeline design using LangChain, vector embeddings, and LLMs for context-aware search.</p>
+            <ul class="service-checklist">
+              <li>LangChain &amp; Vector Embeddings (Qdrant/Pinecone)</li>
+              <li>Context-aware document retrieval &amp; reranking</li>
+              <li>Integration with Groq, DistilBERT &amp; open-source LLMs</li>
+            </ul>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">02. Computer Vision &amp; Real-Time API Deployment</h3>
+            <p class="service-desc">Object detection and image classification models with YOLOv8, containerized into low-latency REST APIs via FastAPI &amp; Docker.</p>
+            <ul class="service-checklist">
+              <li>Custom YOLOv8 object detection &amp; classification</li>
+              <li>Low-latency REST endpoints built with FastAPI</li>
+              <li>Production containerization with Docker</li>
+            </ul>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">03. Predictive Machine Learning Pipelines</h3>
+            <p class="service-desc">End-to-end data cleaning, feature engineering, and model training (XGBoost, Random Forest, LightGBM) on Azure ML or local infrastructure.</p>
+            <ul class="service-checklist">
+              <li>Time-series, tabular &amp; regression modeling</li>
+              <li>Automated data cleaning &amp; feature preprocessing</li>
+              <li>Cross-validation &amp; hyperparameter tuning</li>
+            </ul>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">04. Database &amp; System Architecture Design</h3>
+            <p class="service-desc">Designing structured schemas for SQL Server, MongoDB, and Neo4j alongside MVC system blueprints.</p>
+            <ul class="service-checklist">
+              <li>Relational (SQL Server) &amp; NoSQL (MongoDB, Neo4j)</li>
+              <li>MVC architecture design patterns &amp; UML modeling</li>
+              <li>Role-Based Access Control (RBAC) security logic</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: PROJECTS -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">06. Selected Works</div>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Real-world systems demonstrating machine learning architecture, high throughput, and measurable ROI.</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="project-filter-tabs">
+          <button class="filter-tab active" data-filter="all">All Works</button>
+          <button class="filter-tab" data-filter="predictive">Predictive ML</button>
+          <button class="filter-tab" data-filter="nlp">GenAI &amp; RAG</button>
+          <button class="filter-tab" data-filter="vision">Computer Vision</button>
+          <button class="filter-tab" data-filter="system">System Architecture</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card" data-category="predictive">
+            <div class="project-card-banner banner-gradient-2">
+              <div class="project-metric-pill">&gt;90% Precision</div>
+              <div class="project-icon-art">🌱</div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-category">Predictive ML &amp; Climate Data</div>
+              <h3 class="project-title">Green Hydrogen Yield Prediction &amp; Weather Forecasting System</h3>
+              <p class="project-description">
+                Extracted and engineered time-series features from multi-year NASA meteorological and geospatial datasets for Ain Sokhna and Ras Gharib regions. Trained and benchmarked multiple regression models to forecast green hydrogen yield with &gt;90% statistical precision. Built automated evaluation pipelines measuring RMSE and R² metrics.
+              </p>
+              <div class="project-tech-tags">
+                <span>Python</span>
+                <span>NASA Datasets</span>
+                <span>XGBoost</span>
+                <span>Random Forest</span>
+                <span>LightGBM</span>
+                <span>Scikit-Learn</span>
+                <span>Pandas</span>
+              </div>
+              <div class="project-links">
+                <a href="#contact" class="project-link">
+                  <span>Explore Demo</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <a href="https://github.com/Ahmedgamalxlr8" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="View Source on GitHub">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card" data-category="nlp">
+            <div class="project-card-banner banner-gradient-1">
+              <div class="project-metric-pill">4-Module RAG</div>
+              <div class="project-icon-art">🤖</div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-category">Generative AI &amp; NLP</div>
+              <h3 class="project-title">RAG Customer Support Chatbot System</h3>
+              <p class="project-description">
+                Designed and built a 4-module Retrieval-Augmented Generation customer support chatbot. Integrated intent routing, embedding generation using DistilBERT, similarity search in Qdrant vector database, and final response generation via Groq LLM API with an interactive Streamlit UI.
+              </p>
+              <div class="project-tech-tags">
+                <span>PyTorch</span>
+                <span>DistilBERT</span>
+                <span>Qdrant</span>
+                <span>Groq LLM</span>
+                <span>Streamlit</span>
+                <span>Python</span>
+              </div>
+              <div class="project-links">
+                <a href="#contact" class="project-link">
+                  <span>Explore Demo</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <a href="https://github.com/Ahmedgamalxlr8" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="View Source on GitHub">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card" data-category="vision">
+            <div class="project-card-banner banner-gradient-3">
+              <div class="project-metric-pill">Low Latency REST</div>
+              <div class="project-icon-art">👁️</div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-category">Computer Vision &amp; FastAPI</div>
+              <h3 class="project-title">Real-Time Computer Vision Inference API</h3>
+              <p class="project-description">
+                Containerized real-time computer vision inference services using YOLOv8, FastAPI, and Docker into low-latency REST endpoints for production deployment. Designed clean request handling, batch predictions, and fast serialized responses.
+              </p>
+              <div class="project-tech-tags">
+                <span>YOLOv8</span>
+                <span>FastAPI</span>
+                <span>Docker</span>
+                <span>Python</span>
+                <span>REST API</span>
+              </div>
+              <div class="project-links">
+                <a href="#contact" class="project-link">
+                  <span>Explore Demo</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <a href="https://github.com/Ahmedgamalxlr8" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="View Source on GitHub">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card" data-category="system">
+            <div class="project-card-banner banner-gradient-4">
+              <div class="project-metric-pill">MVC &amp; RBAC</div>
+              <div class="project-icon-art">🏛️</div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-category">System Architecture &amp; Databases</div>
+              <h3 class="project-title">Staff Gate Management System (SGMS)</h3>
+              <p class="project-description">
+                Designed end-to-end system architecture utilizing MVC design patterns, UML class diagrams, and Jira backlog user stories. Structured SQL Server schemas and implemented role-based access control (RBAC) logic for secure organizational access.
+              </p>
+              <div class="project-tech-tags">
+                <span>SQL Server</span>
+                <span>MVC Architecture</span>
+                <span>UML</span>
+                <span>Jira</span>
+                <span>RBAC Security</span>
+              </div>
+              <div class="project-links">
+                <a href="#contact" class="project-link">
+                  <span>Explore Demo</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <a href="https://github.com/Ahmedgamalxlr8" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="View Source on GitHub">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: ACHIEVEMENTS -->
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">07. Honors &amp; Recognition</div>
+          <h2 class="section-title">Awards &amp; Certificates</h2>
+          <p class="section-subtitle">Competitive programming recognitions, government fellowships, and verified machine learning credentials.</p>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Achievement 1 -->
+          <div class="achievement-card">
+            <div class="achievement-medal">🏆</div>
+            <div class="achievement-content">
+              <span class="achievement-date">2024</span>
+              <h3 class="achievement-title">Honorable Mention: ICPC ECPC Qualifications</h3>
+              <p class="achievement-desc">Honorable mention at the Egyptian Collegiate Programming Contest (ECPC) Qualifications, solving complex algorithmic challenges under strict time constraints.</p>
+            </div>
+          </div>
+
+          <!-- Achievement 2 -->
+          <div class="achievement-card">
+            <div class="achievement-medal">📜</div>
+            <div class="achievement-content">
+              <span class="achievement-date">2026</span>
+              <h3 class="achievement-title">ITI: Applied AI Development (AI Level 2)</h3>
+              <p class="achievement-desc">Certified by the Information Technology Institute in applied machine learning, computer vision architectures, transformers, and model evaluation.</p>
+            </div>
+          </div>
+
+          <!-- Achievement 3 -->
+          <div class="achievement-card">
+            <div class="achievement-medal">🌟</div>
+            <div class="achievement-content">
+              <span class="achievement-date">2026</span>
+              <h3 class="achievement-title">DEPI: Microsoft Machine Learning Engineer Fellow</h3>
+              <p class="achievement-desc">Selected as a Machine Learning Engineer Fellow by the Digital Egypt Pioneers Initiative for enterprise Azure ML pipeline development.</p>
+            </div>
+          </div>
+
+          <!-- Achievement 4 -->
+          <div class="achievement-card">
+            <div class="achievement-medal">🏅</div>
+            <div class="achievement-content">
+              <span class="achievement-date">Verified</span>
+              <h3 class="achievement-title">Kaggle Certifications</h3>
+              <p class="achievement-desc">Verified credentials in Computer Vision, Intro to Deep Learning, Data Cleaning, and Pandas data manipulation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">08. Get in Touch</div>
+          <h2 class="section-title">Contact Me</h2>
+          <p class="section-subtitle">Interested in collaborating, hiring, or discussing an innovative ML/Data project? Reach out!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Column -->
+          <div class="contact-info-panel">
+            <h3 class="contact-info-title">Let's build something remarkable together</h3>
+            <p class="contact-info-lead">
+              Whether you have an upcoming predictive modeling initiative, need a production RAG system or computer vision API deployed, or are seeking a Machine Learning Engineer, I'm just a message away.
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-method-card">
+                <div class="method-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="method-details">
+                  <span class="method-label">Direct Email</span>
+                  <a href="mailto:ahmedgamalx808@gmail.com" class="method-value">ahmedgamalx808@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-method-card">
+                <div class="method-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div class="method-details">
+                  <span class="method-label">Phone / WhatsApp</span>
+                  <a href="tel:+201012343052" class="method-value">+20 101 234 3052</a>
+                </div>
+              </div>
+
+              <div class="contact-method-card">
+                <div class="method-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="method-details">
+                  <span class="method-label">Location</span>
+                  <span class="method-value">New Damietta, Egypt</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="contact-socials">
+              <span class="socials-label">Connect across platforms:</span>
+              <div class="social-links-row">
+                <a href="https://github.com/Ahmedgamalxlr8" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="https://linkedin.com/in/ahmed-el-horigy" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-panel">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" class="form-label">Your Name <span class="required">*</span></label>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="e.g. John Doe" required>
+                  <span class="field-error" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Your Email <span class="required">*</span></label>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="e.g. john@example.com" required>
+                  <span class="field-error" id="emailError"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject <span class="required">*</span></label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. Machine Learning Project Inquiry" required>
+                <span class="field-error" id="subjectError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message <span class="required">*</span></label>
+                <textarea id="message" name="message" rows="5" class="form-textarea" placeholder="Tell me about your project, timeline, or opportunity..." required></textarea>
+                <span class="field-error" id="messageError"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-spinner" aria-hidden="true"></span>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" class="btn-arrow">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <div class="form-status-alert" id="formAlert" role="alert" style="display: none;"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="brand-logo">
+          <span class="logo-icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+              <line x1="14" y1="4" x2="10" y2="20"></line>
+            </svg>
+          </span>
+          <span class="logo-text">Ahmed<span class="accent-dot">.</span>AI</span>
+        </a>
+        <p class="footer-slogan">Ahmed Gamal El Horigy — Machine Learning Engineer &amp; Data Scientist. Engineering Intelligent Systems, Deep Learning &amp; Production GenAI.</p>
+      </div>
+
+      <div class="footer-nav">
+        <div class="footer-nav-title">Navigation</div>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> Ahmed Gamal El Horigy. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top-btn" id="backToTop" aria-label="Scroll back to top" title="Back to top">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Modal for CV / Resume Preview -->
+  <div class="modal-backdrop" id="cvModal" role="dialog" aria-modal="true" aria-labelledby="cvModalTitle" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="cvModalTitle" class="modal-title">Curriculum Vitae</h3>
+        <button class="modal-close-btn" id="closeCvModal" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="cv-summary-card">
+          <h4>Ahmed Gamal El Horigy</h4>
+          <p class="cv-role">Machine Learning Engineer &amp; Data Scientist</p>
+          <div class="cv-badge-row">
+            <span class="tag">New Damietta, Egypt</span>
+            <span class="tag">GPA: 3.32 (Very Good)</span>
+            <span class="tag">DEPI Fellow</span>
+            <span class="tag">ITI AI Level 2</span>
+          </div>
+          <hr class="cv-divider">
+          <h5>Core Competencies</h5>
+          <p>Production GenAI (RAG), YOLOv8 Computer Vision, FastAPI REST Endpoints, Docker, Microsoft Azure ML, XGBoost, Random Forest, SQL Server, MongoDB, Neo4j.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="closeCvModalBtn">Close</button>
+        <a href="https://drive.google.com/file/d/1XW4Ch27_IBrfKb7YSozJML9A6NPD5pQh/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="hireFromCvBtn">Open Full CV in Google Drive</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
