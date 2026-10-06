@@ -18,7 +18,7 @@ Main Headline: Engineering Scalable Predictive Pipelines, Computer Vision & Prod
 Tagline: Machine Learning Engineer with practical experience designing end-to-end predictive pipelines, deep learning vision models, and production GenAI (RAG) systems. Proven track record deploying scalable REST APIs with FastAPI, automating Azure ML cloud workflows, and engineering robust, high-impact data architectures.
 
 Call To Action Buttons:
-  - Button 1: "View CV" -> Link to Google Drive PDF (https://drive.google.com/file/d/1XW4Ch27_IBrfKb7YSozJML9A6NPD5pQh/view?usp=sharing)
+  - Button 1: "View CV" -> Link to Google Drive PDF (https://drive.google.com/file/d/19X3UrcHAxvXtReW5MlMxgAq0hZ3FQ80G/view?usp=sharing)
   - Button 2: "Contact Me" -> Link to #contact
   - Button 3: "View Projects" -> Link to #projects
 
