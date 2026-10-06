@@ -215,30 +215,54 @@ img {
 .brand-logo {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.65rem;
   font-weight: 800;
   font-size: 1.35rem;
   letter-spacing: -0.03em;
   color: var(--text-primary);
+  text-decoration: none;
+  transition: opacity var(--transition-fast);
+}
+
+.brand-logo:hover {
+  opacity: 0.95;
 }
 
 .logo-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 36px;
-  width: auto;
-  /* Allow width to scale naturally */
-  max-width: 60px;
-  border-radius: 6px;
+  width: 38px;
+  height: 38px;
+  min-width: 38px;
+  min-height: 38px;
+  border-radius: 9px;
   overflow: hidden;
+  background-color: #12151a;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  flex-shrink: 0;
+  transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.brand-logo:hover .logo-icon {
+  transform: translateY(-1px) scale(1.04);
+  border-color: var(--border-color-hover);
+  box-shadow: 0 0 12px var(--accent-glow);
 }
 
 .logo-icon img {
+  width: 100%;
   height: 100%;
-  width: auto;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
+  border-radius: inherit;
+}
+
+.logo-icon svg {
+  width: 20px;
+  height: 20px;
+  color: var(--accent-primary);
 }
 
 .logo-text {
