@@ -226,16 +226,19 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
   height: 36px;
-  border-radius: 8px;
+  width: auto;
+  /* Allow width to scale naturally */
+  max-width: 60px;
+  border-radius: 6px;
   overflow: hidden;
 }
 
 .logo-icon img {
-  width: 100%;
   height: 100%;
+  width: auto;
   object-fit: contain;
+  display: block;
 }
 
 .logo-text {

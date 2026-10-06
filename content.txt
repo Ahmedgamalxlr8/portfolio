@@ -2,7 +2,7 @@
                        PERSONAL PORTFOLIO DATA FILE
 ===============================================================================
 NAME: Ahmed Gamal El Horigy
-TITLE: Machine Learning Engineer & Data Scientist
+TITLE: Machine Learning Engineer | Data Scientist
 LOCATION: New Damietta, Egypt
 EMAIL: ahmedgamalx808@gmail.com
 PHONE: +201012343052
@@ -14,29 +14,34 @@ STATUS: Open to Opportunities | Senior Student at Damietta University
 1. HERO SECTION
 ===============================================================================
 Badge Headline: Open to Full-Time & Freelance Opportunities
-Main Headline: Engineering Intelligent Systems, Deep Learning & Production GenAI
-Tagline: Machine Learning Engineer with practical experience designing end-to-end predictive pipelines, deep learning vision models, and production GenAI (RAG) systems.
+Main Headline: Engineering Scalable Predictive Pipelines, Computer Vision & Production GenAI
+Tagline: Machine Learning Engineer with practical experience designing end-to-end predictive pipelines, deep learning vision models, and production GenAI (RAG) systems. Proven track record deploying scalable REST APIs with FastAPI, automating Azure ML cloud workflows, and engineering robust, high-impact data architectures.
 
 Call To Action Buttons:
-  - Button 1: "View CV" -> Link to CV PDF / Google Drive https://drive.google.com/file/d/1XW4Ch27_IBrfKb7YSozJML9A6NPD5pQh/view?usp=sharing
+  - Button 1: "View CV" -> Link to Google Drive PDF (https://drive.google.com/file/d/1XW4Ch27_IBrfKb7YSozJML9A6NPD5pQh/view?usp=sharing)
   - Button 2: "Contact Me" -> Link to #contact
   - Button 3: "View Projects" -> Link to #projects
 
 Metric Counters:
-  - Counter 1: 3.32 GPA (Very Good) at Damietta University
-  - Counter 2: 4 Core Modules Built for Production RAG & Computer Vision APIs
-  - Counter 3: >90% Statistical Precision on NASA Climate Yield Forecasting
+  - Counter 1: 3.32 GPA (Very Good) | Damietta University
+  - Counter 2: >90% Statistical Precision | NASA Climate & Green Hydrogen Yield Forecasting
+  - Counter 3: 2 Key Industry Fellowships | DEPI (Microsoft Azure ML) & ITI (Applied AI)
 
 ===============================================================================
 2. ABOUT ME
 ===============================================================================
-Headline: Who Am I?
+Headline: About Me
 Summary:
-I am a Machine Learning Engineer and Senior AI Student at Damietta University (IS Dept.) with a strong background in designing end-to-end predictive pipelines, deep learning vision models, and production Retrieval-Augmented Generation (RAG) systems.
+I am a Machine Learning Engineer and Data Scientist studying Computers and Artificial Intelligence (IS Dept.) at Damietta University. I specialize in engineering end-to-end predictive pipelines, training computer vision backbones, and deploying production Retrieval-Augmented Generation (RAG) systems.
 
-My expertise spans machine learning algorithms (XGBoost, LightGBM, Random Forest, Scikit-learn) and deep learning models (YOLOv8, Transformers, PyTorch, TensorFlow) integrated with vector embeddings, LangChain, and modern databases like SQL Server, MongoDB, and Neo4j.
+My background bridges applied algorithmic modeling (Scikit-learn, PyTorch, TensorFlow, YOLOv8) with scalable cloud and backend engineering. I have hands-on experience containerizing inference services using FastAPI and Docker, orchestrating machine learning workflows on Microsoft Azure ML, and structuring data architectures using SQL Server, MongoDB, and Neo4j.
 
-With hands-on experience deploying scalable REST APIs using FastAPI, containerizing inference services with Docker, and automating cloud workflows on Microsoft Azure AI / Azure ML, I turn complex data into robust, high-impact intelligent applications.
+Through professional fellowships at DEPI and ITI, as well as client-facing freelance engineering, I focus on turning complex datasets into reliable, low-latency intelligent systems that deliver measurable impact.
+
+Key Highlights:
+  - Production GenAI & RAG Systems: Architecting context-aware semantic search with LangChain, vector embeddings, and LLM orchestration.
+  - Computer Vision & API Serving: Containerizing YOLOv8 real-time inference microservices with FastAPI and Docker into low-latency endpoints.
+  - Cloud MLOps & Enterprise Pipelines: Automating model training, hyperparameter optimization, benchmarking, and cloud API serving on Microsoft Azure ML.
 
 ===============================================================================
 3. EDUCATION
@@ -44,16 +49,11 @@ With hands-on experience deploying scalable REST APIs using FastAPI, containeriz
 Institution: Damietta University (Faculty of Computers and Artificial Intelligence - IS Dept.)
 Degree: Bachelor's Degree in Computers and Artificial Intelligence
 GPA: 3.32 / 4.00 (Very Good)
-Dates: Sept 2023 – Present | Egypt
-
-Relevant Coursework:
-  - Machine Learning & Deep Learning
-  - Data Structures & Algorithms
-  - Relational Databases (SQL Server) & NoSQL (MongoDB, Neo4j)
-  - Software Engineering & System Architecture
+Dates: 09/2023 – Present | Egypt
+Relevant Coursework: Machine Learning, Deep Learning, Data Structures, Relational/NoSQL Databases, Software Engineering.
 
 ===============================================================================
-4. SKILLS
+4. TECHNICAL SKILLS
 ===============================================================================
 Category 1: Programming & Query Languages
   - Python
@@ -65,37 +65,42 @@ Category 2: Machine Learning & Deep Learning
   - Scikit-learn, PyTorch, TensorFlow
   - Computer Vision: YOLOv8
   - Transformers & Hugging Face
-  - Supervised & Unsupervised Learning, Feature Engineering
-  - Model Benchmarking & Hyperparameter Optimization
+  - Model Benchmarking & Diagnostic Evaluation
+  - Hyperparameter Optimization
 
 Category 3: Generative AI & NLP
-  - Large Language Models (LLMs) & RAG Pipelines
-  - Vector Embeddings & LangChain
+  - Large Language Models (LLMs) & RAG
+  - Vector Embeddings & Vector Databases
+  - LangChain
   - Prompt Engineering
-  - SpaCy, NLTK & Text Processing
+  - Text Processing: SpaCy, NLTK
 
 Category 4: Data Engineering & Databases
-  - Data Manipulation: Pandas, NumPy
-  - Databases: SQL Server, MongoDB, Neo4j
-  - Data Preprocessing & Automated ETL Pipelines
+  - Data Manipulation & Processing: Pandas, NumPy
+  - Relational Databases: SQL Server
+  - NoSQL & Graph Databases: MongoDB, Neo4j
+  - Automated Preprocessing & Feature Extraction Pipelines
 
 Category 5: Deployment, Cloud & Developer Tools
-  - Deployment & Containers: FastAPI, Docker
-  - Cloud Platforms: Microsoft Azure AI / Azure ML
-  - Version Control & Management: Git, GitHub, Jira
+  - Backend & Deployment: FastAPI, Docker
+  - Cloud Platforms: Microsoft Azure AI, Microsoft Azure ML
+  - Version Control & Project Management: Git, GitHub, Jira
 
-Category 6: Languages & Soft Skills
-  - Languages: Arabic (Native), English (Professional Working Proficiency)
-  - Core Skills: Agile Workflows, System Architecture, System Design
+Category 6: Languages & Methodologies
+  - Arabic: Native
+  - English: Professional Working Proficiency
+  - System Architecture & MVC Patterns
+  - Role-Based Access Control (RBAC)
+  - Agile Workflows
 
 ===============================================================================
-5. WORK EXPERIENCE & FELLOWSHIPS
+5. EXPERIENCE & FELLOWSHIPS
 ===============================================================================
 [Role 1]
 Title: Freelance Machine Learning & AI Engineer
 Organization: Remote
-Dates: Jul 2026 – Present
-Key Responsibilities:
+Dates: 07/2026 – Present
+Key Contributions:
   - Architected and deployed custom Retrieval-Augmented Generation (RAG) pipelines integrating LangChain and vector databases to enable context-aware domain search for client applications.
   - Containerized real-time computer vision inference services using YOLOv8, FastAPI, and Docker into low-latency REST endpoints.
   - Built automated data preprocessing and feature extraction pipelines in Python/Scikit-Learn to train validated predictive models.
@@ -103,33 +108,33 @@ Key Responsibilities:
 [Role 2]
 Title: Microsoft Machine Learning Engineer Fellow
 Organization: Digital Egypt Pioneers Initiative (DEPI)
-Dates: Jul 2026 – Present
-Key Responsibilities:
+Dates: 07/2026 – Present
+Key Contributions:
   - Trained enterprise-grade models and built automated ML pipelines utilizing Microsoft Azure ML cloud infrastructure.
   - Conducted model benchmarking, hyperparameter optimization, and cloud-based API serving for predictive endpoints.
 
 [Role 3]
-Title: Applied AI Development Trainee (AI Level 2)
+Title: Applied AI Development (AI Level 2) Trainee
 Organization: Information Technology Institute (ITI)
-Dates: Aug 2026 – Present
-Key Responsibilities:
+Dates: 08/2026 – Present
+Key Contributions:
   - Completed intensive AI tracks covering advanced Computer Vision backbones, transformer-based NLP, and generative AI workflows.
   - Built cross-validated ML pipelines with diagnostic evaluation to maximize predictive accuracy.
 
 ===============================================================================
-6. SERVICES
+6. SERVICES & CORE OFFERINGS
 ===============================================================================
-01. GenAI & Production RAG Systems
-  - Custom RAG pipeline design using LangChain, vector embeddings, and LLMs for context-aware search.
+01. Production GenAI & Custom RAG Pipelines
+  - Designing context-grounded retrieval systems using LangChain, vector embeddings, and LLM orchestration for reliable search and question answering.
 
-02. Computer Vision & Real-Time API Deployment
-  - Object detection and image classification models with YOLOv8, containerized into low-latency REST APIs via FastAPI & Docker.
+02. Computer Vision & Low-Latency API Deployment
+  - Training and fine-tuning YOLOv8 detection and classification models, containerized into high-performance REST APIs via FastAPI and Docker.
 
-03. Predictive Machine Learning Pipelines
-  - End-to-end data cleaning, feature engineering, and model training (XGBoost, Random Forest, LightGBM) on Azure ML or local infrastructure.
+03. Predictive ML Pipelines & Cloud MLOps
+  - Developing data cleaning, automated feature engineering, and cross-validated predictive models (XGBoost, Random Forest, LightGBM) served via Microsoft Azure ML.
 
-04. Database & System Architecture Design
-  - Designing structured schemas for SQL Server, MongoDB, and Neo4j alongside MVC system blueprints.
+04. Data Architecture & System Design
+  - Architecting relational and NoSQL database schemas (SQL Server, MongoDB, Neo4j) with MVC design blueprints and role-based access control.
 
 ===============================================================================
 7. FEATURED PROJECTS
@@ -137,39 +142,41 @@ Key Responsibilities:
 [Project 1]
 Title: Green Hydrogen Yield Prediction & Weather Forecasting System
 Role: Lead Data Scientist / ML Developer
-Dates: Feb 2026 – Jun 2026
+Dates: 02/2026 – 06/2026
 Tech Stack: Python, NASA Datasets, XGBoost, Random Forest, LightGBM, Scikit-Learn, Pandas
 Description:
-Extracted and engineered time-series features from multi-year NASA meteorological and geospatial datasets for Ain Sokhna and Ras Gharib regions. Trained and benchmarked multiple regression models to forecast green hydrogen yield with >90% statistical precision. Built automated evaluation pipelines measuring RMSE and R² metrics.
+Extracted and engineered time-series features from multi-year NASA meteorological and geospatial datasets for Ain Sokhna and Ras Gharib regions. Trained and benchmarked multiple regression models (XGBoost, Random Forest, LightGBM) to forecast green hydrogen yield with >90% statistical precision. Built automated evaluation pipelines measuring RMSE and R² metrics to optimize yield accuracy.
 
 [Project 2]
-Title: RAG Customer Support Chatbot System
-Role: AI / NLP Developer
-Tech Stack: PyTorch, DistilBERT, Qdrant, Groq LLM, Streamlit, Python
-Description:
-Designed and built a 4-module Retrieval-Augmented Generation customer support chatbot. Integrated intent routing, embedding generation using DistilBERT, similarity search in Qdrant vector database, and final response generation via Groq LLM API with an interactive Streamlit UI.
-
-[Project 3]
 Title: Staff Gate Management System (SGMS)
 Role: Software & System Design Engineer
-Dates: Sept 2025 – Jan 2026
-Tech Stack: SQL Server, MVC Architecture, UML, Jira, Role-Based Access Control
+Dates: 09/2025 – 01/2026
+Tech Stack: SQL Server, MVC Architecture, UML, Jira, RBAC Logic
 Description:
-Designed end-to-end system architecture utilizing MVC design patterns, UML class diagrams, and Jira backlog user stories. Structured SQL Server schemas and implemented role-based access control (RBAC) logic.
+Designed end-to-end system architecture utilizing MVC design patterns, UML class diagrams, and Jira backlog user stories. Structured SQL Server schemas and implemented role-based access control (RBAC) logic for secure organizational authentication and access.
 
-[Project 4]
-Title: Real-Time Computer Vision Inference API
-Role: ML Engineer
+[Project 3]
+Title: Containerized Computer Vision REST Inference Service
+Role: Machine Learning Engineer
+Dates: 07/2026 – Present
 Tech Stack: YOLOv8, FastAPI, Docker, Python
 Description:
-Containerized real-time computer vision inference services using YOLOv8, FastAPI, and Docker into low-latency REST endpoints for production deployment.
+Engineered and containerized real-time computer vision inference services utilizing YOLOv8 and FastAPI within lightweight Docker environments. Structured low-latency REST endpoints to handle client image payloads, run batch detections, and stream structured response payloads.
+
+[Project 4]
+Title: Production RAG Domain Search Pipeline
+Role: AI / NLP Developer
+Dates: 07/2026 – Present
+Tech Stack: Python, LangChain, Vector Databases, LLMs, Text Processing
+Description:
+Architected and deployed custom Retrieval-Augmented Generation (RAG) pipelines integrating LangChain and vector databases to enable context-aware domain search for client applications, minimizing hallucinations and ensuring grounded domain retrieval.
 
 ===============================================================================
-8. AWARDS & CERTIFICATES
+8. HONORS, AWARDS & CERTIFICATIONS
 ===============================================================================
   - Honorable Mention: ICPC Egyptian Collegiate Programming Contest (ECPC) Qualifications (2024)
-  - Information Technology Institute (ITI): Applied AI Development (AI Level 2) Certification
-  - Digital Egypt Pioneers Initiative (DEPI): Microsoft Machine Learning Engineer Fellow
+  - Microsoft Machine Learning Engineer Fellow: Digital Egypt Pioneers Initiative (DEPI)
+  - Applied AI Development (AI Level 2): Information Technology Institute (ITI)
   - Kaggle Certifications: Computer Vision, Intro to Deep Learning, Data Cleaning, Pandas
 
 ===============================================================================
@@ -180,5 +187,5 @@ Phone: +201012343052
 Location: New Damietta, Egypt
 GitHub: https://github.com/Ahmedgamalxlr8
 LinkedIn: https://linkedin.com/in/ahmed-el-horigy
-Form Fields: Name, Email, Subject, Message
+Portfolio Link: https://Ahmedgamalxlr8.github.io/portfolio
 ===============================================================================
