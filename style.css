@@ -942,6 +942,26 @@ img {
   background: var(--border-color);
 }
 
+.timeline.timeline-single,
+.timeline:has(.timeline-item:only-child) {
+  padding-left: 0;
+}
+
+.timeline.timeline-single::before,
+.timeline:has(.timeline-item:only-child)::before {
+  display: none;
+}
+
+.timeline.timeline-single .timeline-dot,
+.timeline-item:only-child .timeline-dot {
+  display: none;
+}
+
+.timeline.timeline-single .timeline-content:hover,
+.timeline-item:only-child .timeline-content:hover {
+  transform: translateY(-4px);
+}
+
 .timeline-item {
   position: relative;
   margin-bottom: 2.5rem;
